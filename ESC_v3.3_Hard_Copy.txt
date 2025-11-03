@@ -1,0 +1,51 @@
+ESC v3.3 – Primal Emotion OS (Tensor + Temporal)
+A universal, open, auditable emotional operating system.
+32 cases → 100% state ID → now with multi-PI vectors & time.
+
+──────────────────
+1. EIGHT PRIMAL INSTINCTS (PI) – unchanged
+1. Defense | 2. Aversion | 3. Appetitive | 4. Reproductive
+5. Parental | 6. Social Cohesion | 7. Legacy | 8. Thermoregulation
+
+──────────────────
+2. CORE SCALES – unchanged
+V: -5 to +5  |  I: 1 to 5  |  Δ: -10 to +10  |  W: 0.1–1.0
+
+──────────────────
+3. NEW: Δ TENSOR (Multi-PI Activation)
+Δ = [Δ₁, Δ₂, ..., Δ₈]  → one Δ per PI
+Δ_eff = Σ(Δᵢ × wᵢ) / Σ wᵢ
+   wᵢ = Iᵢ / 5  (arousal-weighted)
+
+Example (DID Polyfragment):
+Δ = [8, 0, 0, 0, 6, 0, 4, 0] → Δ_eff = (8×1 + 6×0.8 + 4×0.6) / 2.4 = 6.5
+
+──────────────────
+4. NEW: TEMPORAL WINDOW (10s sliding)
+Δ_eff(t) = mean(Δ_eff[t-10:t])
+dΔ/dt = Δ_eff(t) - Δ_eff(t-1)
+   |dΔ/dt| > 3.0 → ESCALATION FLAG
+
+──────────────────
+5. NEW: ENTROPY INDEX (60s stability)
+H = −Σ p(state) log p(state) over 60s
+   H < 1.5 → Silent Load
+   H > 3.0 → Chaos (mania, polyfragment cascade)
+
+──────────────────
+6. FEEDBACK LOOP (T_Net Core)
+L(t+1) = L(t) + α(−Δ_eff)  → α = 0.1
+→ AI learns to reduce emotional bias over time
+
+──────────────────
+7. LOG TEMPLATE (v3.3 – Tensor Ready)
+[Time] ________
+1. Streams: [HRV | voice | energy | phys]
+2. Scratch: [trigger] → [PI#] → [Δᵢ]
+3. Tensor: Δ = [Δ₁..Δ₈] | Δ_eff = ___
+4. Temporal: Δ_eff(t) = ___ | dΔ/dt = ___
+5. Entropy: H = ___ (60s)
+6. V: [–5 to +5] | PI-Lead: [1-8] | State: [see map]
+
+──────────────────
+END OF v3.3
