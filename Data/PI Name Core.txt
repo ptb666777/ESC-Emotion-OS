@@ -1,0 +1,9 @@
+PI Name Core Instinctual Goal ESC Core Valence Primary Log Stream Metric
+Defense Immediate Self-Preservation Negative (FEAR/RAGE) HRV (Variability), Voice Pitch
+Aversion Preventing Internal Contamination Negative (DISGUST) Facial EMG, Skin Conductance
+Appetitive Energy/Resource Acquisition Positive (SEEKING) Chem (Hunger/Glucose Proxy), Typing Speed
+Oxygenation Sustaining Cellular Function Negative (PANIC) Respiration Rate, Blink Rate
+Reproduction Species Perpetuation/Mating Positive (LUST/CARE) Chem (Arousal Proxy), Voice Modulation
+Security Long-Term Physical Protection Negative/Positive (FEAR/RELIEF) Blink Rate (Low), HRV (Steady)
+Social Cohesion Group Support/Bonding Positive (CARE/PLAY) or Negative (GRIEF) Memory Activation ("Kin"), Voice Pitch (Affiliation)
+Thermoregulation Stable Core Temperature Negative/Positive (DISTRESS/COMFORT) Physical (Shivering/Sweating), Self-Reported Comfort
